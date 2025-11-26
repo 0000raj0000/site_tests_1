@@ -26,3 +26,9 @@ tl.from(
         stagger: 0.2
     }
 )
+tl.to(".thirdli>li:first-child",{
+        scale: 0.95,
+        duration: 0.2,
+        ease: "power2.out"
+    }
+)
